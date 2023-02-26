@@ -1,14 +1,14 @@
 # About this project
 
-This project comes along with the research paper [Formation control with connectivity assurance for missile swarm: a natural co-evolutionary strategy approach](https://arxiv.org/abs/2208.11347), which is currently under review. An evolutionary-strategy-based algorithm was used to perform missile formation control, owing to flexibility of the adaptive neural network controller the control performance is desirable in many scenarios. 
+This project comes along with the research paper [Formation control with connectivity assurance for missile swarm: a natural co-evolutionary strategy approach](https://arxiv.org/abs/2208.11347). An evolutionary-strategy-based algorithm was used to perform missile formation control, owing to flexibility of the adaptive neural network controller the control performance is desirable in many scenarios. 
 
 <p float="left">
   <img src="./src/re1.png" width="45%" />
   <img src="./src/re2.svg" width="45%" /> 
 </p>
 
-This project is available as a stand-alone lab kit with configurable simulation scenario.
-The `environmnent` directory is used to keep the simulation environment, which is built upon [pybullet](https://github.com/bulletphysics/bullet3), the physic simulation engine. Implementation algorithm is stored in the `Evo_Stra` directory, and can be excuted mainly from the outermost folder. Then the trained models and analytical details are saved in cooresponding folders, which can be easily checked during the training process. To facilate testing, GUI entry is available in the `GUI` folder, which gives a visualized presentation of the evolution process.
+This project is available for implementing the replay of the researh paper. Usable configuration files are also included.
+The `environmnent` directory keeps the simulation environment, which is built upon [pybullet](https://github.com/bulletphysics/bullet3), the physic simulation engine. Implementation algorithm is stored in the `Evo_Stra` directory, and can be excuted mainly from the outermost folder. Then the trained models and analytical details are saved in cooresponding folders, which can be easily checked during the training process. To facilate testing, GUI entry is available in the `GUI` folder, which gives a visualized presentation of the evolution process.
 
 ### Prerequistes
 
@@ -48,4 +48,4 @@ python EvaluateModel.py --path=<pathToSavedResults>
 
 # Acknowledgments
 
-For security reasons the complete code will be released after the paper is accepted and published, however you can still run the evaluation program to view the result.
+Through experiments, I found that evolutionary strategies are generally stable compared to RL. Further investigations on such simple but effective algorithms are encouraged. 
