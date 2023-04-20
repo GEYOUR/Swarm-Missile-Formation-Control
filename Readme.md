@@ -1,3 +1,5 @@
+<img title="" src="./src/icon_formation_flight_platform_swarm.jpg" alt="icon" width="121" data-align="left">
+
 # About this project
 
 This project comes along with the research paper [Formation control with connectivity assurance for missile swarm: a natural co-evolutionary strategy approach](https://arxiv.org/abs/2208.11347). An evolutionary-strategy-based algorithm was used to perform missile formation control, owing to flexibility of the adaptive neural network controller the control performance is desirable in many scenarios. 
